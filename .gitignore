@@ -1,0 +1,50 @@
+# Byte-compiled / cache
+pycache/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Virtual environments
+venv/
+.env/
+.venv/
+
+# Streamlit specific
+.streamlit/config.toml
+
+# IDEs
+.vscode/
+.idea/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Node (Client)
+client/node_modules/
+client/build/
+client/dist/
+client/.next/
+client/.turbo/
+client/.eslintcache
+client/.parcel-cache
+client/.env.local
+client/.env.development.local
+client/.env.test.local
+client/.env.production.local
+
+# Compiled JS / CSS
+*.js.map
+*.css.map
+
+# Coverage
+coverage/
+*.lcov
+
+# Testing
+.nyc_output/

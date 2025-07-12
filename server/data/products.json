@@ -1,0 +1,82 @@
+[
+  {
+    "name": "Astronaut Puzzle",
+    "description": "A fun 100-piece jigsaw puzzle featuring an astronaut in space.",
+    "price": 499,
+    "tags": ["space", "puzzle", "fun"],
+    "age_range": [6, 12],
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/10/07/jigsaw-puzzle-1861710_1280.jpg"
+  },
+  {
+    "name": "Glow-in-the-Dark Solar System Kit",
+    "description": "Craft your own glowing planets and learn about the solar system.",
+    "price": 799,
+    "tags": ["space", "science", "DIY"],
+    "age_range": [7, 12],
+    "image": "https://cdn.pixabay.com/photo/2022/01/19/22/25/solar-system-6949917_1280.jpg"
+  },
+  {
+    "name": "Beginner Telescope",
+    "description": "Explore the night sky with this compact telescope.",
+    "price": 1999,
+    "tags": ["space", "exploration", "science"],
+    "age_range": [8, 14],
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Telescope_01.jpg/320px-Telescope_01.jpg"
+  },
+  {
+    "name": "Creative Art Box",
+    "description": "A collection of paints, brushes, and art sheets for young artists.",
+    "price": 649,
+    "tags": ["art", "creativity", "fun"],
+    "age_range": [5, 12],
+    "image": "https://cdn.pixabay.com/photo/2015/10/30/20/13/watercolor-1016951_1280.jpg"
+  },
+  {
+    "name": "Magnet Science Kit",
+    "description": "Learn physics with 10 magnetic experiments and activities.",
+    "price": 899,
+    "tags": ["science", "physics", "DIY"],
+    "age_range": [8, 14],
+    "image": "https://cdn.pixabay.com/photo/2017/02/17/09/28/magnet-2076846_1280.jpg"
+  },
+  {
+    "name": "Dinosaur Dig Excavation Kit",
+    "description": "Dig for fossils and assemble your own dino skeleton!",
+    "price": 549,
+    "tags": ["dinosaur", "science", "paleontology"],
+    "age_range": [6, 11],
+    "image": "https://cdn.pixabay.com/photo/2015/12/01/20/28/dinosaur-1072832_1280.jpg"
+  },
+  {
+    "name": "LEGO City Rocket Launch Center",
+    "description": "Build your own rocket launch pad with this space-themed LEGO kit.",
+    "price": 2999,
+    "tags": ["lego", "space", "creativity"],
+    "age_range": [7, 13],
+    "image": "https://cdn.pixabay.com/photo/2017/03/06/20/02/lego-2127013_1280.jpg"
+  },
+  {
+    "name": "Periodic Table Poster",
+    "description": "Colorful and fun poster for chemistry lovers.",
+    "price": 299,
+    "tags": ["science", "chemistry", "learning"],
+    "age_range": [10, 16],
+    "image": "https://cdn.pixabay.com/photo/2018/10/01/20/12/periodic-table-3714386_1280.jpg"
+  },
+  {
+    "name": "Smart Robot Coding Toy",
+    "description": "Program a robot using a simple drag-and-drop app.",
+    "price": 2499,
+    "tags": ["coding", "robotics", "STEM"],
+    "age_range": [9, 14],
+    "image": "https://cdn.pixabay.com/photo/2019/03/18/19/54/robot-4062674_1280.jpg"
+  },
+  {
+    "name": "Paint-by-Numbers Space Set",
+    "description": "Paint a galaxy scene with this guided paint kit.",
+    "price": 459,
+    "tags": ["art", "space", "painting"],
+    "age_range": [6, 12],
+    "image": "https://cdn.pixabay.com/photo/2020/05/04/00/21/galaxy-5128560_1280.jpg"
+  }
+]

@@ -1,0 +1,28 @@
+shopping-assistant/
+├── .gitignore
+├── README.md
+├── data/
+│   └── products.json
+├── client/                  # React frontend
+│   ├── package.json
+│   ├── public/
+│   └── src/
+│       ├── App.jsx
+│       ├── index.jsx
+│       ├── components/
+│       │   ├── ChatWindow.jsx
+│       │   ├── Message.jsx
+│       │   └── ProductCard.jsx
+│       └── services/
+│           └── api.js
+└── server/                  # FastAPI backend
+    ├── requirements.txt
+    ├── Dockerfile
+    └── app/
+        ├── main.py
+        ├── services/
+        │   └── ai.py
+        ├── routes/
+        │   ├── chat.py
+        │   └── products.py
+        └── models/         # If you need Pydantic schemas
