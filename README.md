@@ -1,4 +1,3 @@
-````markdown
 # 🛍️ Voice Shopping Assistant
 
 An AI‑powered, voice‑enabled shopping assistant tailored for kids and parents. Users can ask natural language queries—typed or spoken—and receive personalized product recommendations (with images, descriptions, prices, and save‑for‑later functionality) powered by a local LLaMA‑2 (13B) model via Ollama, FastAPI backend, and Streamlit frontend.  
@@ -33,28 +32,27 @@ Parents and children often struggle to find age‑appropriate, educational or fu
 ## 📥 Installation
 
 1. **Clone the repo**  
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/voice-shopping-assistant.git
-   cd voice-shopping-assistant
-````
+
+   * git clone https://github.com/YOUR_USERNAME/voice-shopping-assistant.git
+   * cd voice-shopping-assistant
+
 
 2. **Backend Setup**
 
-   ```bash
-   cd server
-   python3 -m venv venv
-   source venv/bin/activate            # Windows: venv\Scripts\activate
-   pip install -r requirements.txt
-   ```
+  
+   * cd server
+   * python3 -m venv venv
+   * source venv/bin/activate            # Windows: venv\Scripts\activate
+   * pip install -r requirements.txt
+
 
 3. **Frontend Setup (Streamlit)**
 
-   ```bash
-   cd ../client2
-   python3 -m venv venv
-   source venv/bin/activate
-   pip install -r requirements.txt
-   ```
+   * cd ../client2
+   * python3 -m venv venv
+   * source venv/bin/activate
+   * pip install -r requirements.txt
+
 
 4. **Ollama & LLaMA‑2**
 
@@ -62,9 +60,9 @@ Parents and children often struggle to find age‑appropriate, educational or fu
    * Download LLaMA‑2 13B: `ollama pull llama2`
    * Start local server:
 
-     ```bash
+   
      ollama run llama2
-     ```
+ 
 
 ---
 
@@ -72,17 +70,16 @@ Parents and children often struggle to find age‑appropriate, educational or fu
 
 1. **Start Backend**
 
-   ```bash
    cd server
    uvicorn app.main:app --reload
-   ```
+
 
 2. **Start Frontend**
 
-   ```bash
+
    cd client2
    streamlit run app.py
-   ```
+  
 
 3. **Open Browser**
    Visit `http://localhost:8501` to interact with your Voice Shopping Assistant.
